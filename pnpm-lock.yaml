@@ -33,6 +33,12 @@ importers:
         specifier: ^2.3.0
         version: 2.6.3
     devDependencies:
+      '@jest/environment':
+        specifier: ^29.4.1
+        version: 29.7.0
+      '@jest/types':
+        specifier: ^29.4.1
+        version: 29.6.3
       '@nestjs/schematics':
         specifier: ^10.0.1
         version: 10.1.3(chokidar@3.6.0)(typescript@5.5.4)
@@ -96,6 +102,9 @@ importers:
       jest:
         specifier: ^29.4.1
         version: 29.7.0(@types/node@18.16.20)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.12))(@types/node@18.16.20)(typescript@5.5.4))
+      jest-circus:
+        specifier: ^29.4.1
+        version: 29.7.0
       jest-environment-node:
         specifier: ^29.4.1
         version: 29.7.0
